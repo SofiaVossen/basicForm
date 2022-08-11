@@ -1,0 +1,31 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0%;
+    padding:0%;
+    width:50vw;
+    box-sizing: border-box;
+}
+.required::after{
+    content:"*";
+    color:red;
+}
+.inputname{
+    width:47%;
+}
+#submit{
+    background-color: lightblue;
+    color:white;
+}
+#submit:hover{
+    background-color: darkblue;
+}
+input{
+    height:3vh;
+    margin:1%;
+}
+textarea{
+    margin:1%;
+}
+p{
+    margin:1%
+}

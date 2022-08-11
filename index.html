@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="">
+    <!-- NAME -->
+    <p class="required">Name</p>
+    <div>
+        <label for="vorname"></label>
+        <input class="inputname"type="text" name="Vorname" id="vorname" placeholder="Vorname" required>
+        <label for="name"></label>
+        <input class="inputname"type="text" name="Name" id="name" placeholder="Nachname" required>
+    </div>
+    <!-- E-MAIL -->
+    <p class="required">E-mail</p>
+    <div>
+        <label for="Email"></label>
+        <input class="inputwidth2" type="text" name="Email" id="email" required>
+    </div>
+    <!-- THEMA -->
+    <p>Thema</p>
+    <div>
+        <label for="thema1"></label>
+        <input list="thema2" id="thema1" name="thema">
+        <datalist id="thema2">
+            <option value="General"></option>
+            <option value="Advertise"></option>
+            <option value="Partnership"></option>
+        </datalist>
+    </div>
+    <!-- NACHRICHT -->
+    <p class="required">Nachricht</p>
+    <div>
+        <label for="nachricht"></label>
+        <textarea name="Nachricht" id="nachricht" cols="30" rows="10"></textarea>
+    </div>
+    <!-- SUBMIT -->
+    <div>
+        <input id="submit" type="submit" value="Submit">
+    </div>
+    </form>
+</body>
+</html>
